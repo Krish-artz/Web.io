@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Reset some default styles */
+h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body , section {
+  background-image: url('background.jpg');
+  background-size: auto;
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.artwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.art-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.art-item img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Add this to your existing CSS or create a new stylesheet */
+
+#arts {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.art-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-article {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.art-article:hover {
+    transform: translateY(-5px);
+}
+
+.art-article img {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.article-content {
+    padding: 20px;
+}
+
+.article-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.article-content a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.article-content a:hover {
+    background-color: #555;
+}
